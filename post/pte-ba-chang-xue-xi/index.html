@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    zhang&#39;Blog
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="zhangwenbo">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://zhangwenbo1229.github.io/zhangwenbo1229/styles/main.css" />
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                <!--点击特效-->
+                <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
+                
+                        <!--CDN样式-->
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://zhangwenbo1229.github.io/zhangwenbo1229">
+                    zhang&#39;Blog
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        归档
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        关于
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1655108039224" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://zhangwenbo1229.github.io/zhangwenbo1229">
+                            zhang&#39;Blog
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1655108039224" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            归档
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            关于
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                PTE靶场学习
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            zhang'Blog
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2022-06-13</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">4.2
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">1091</a></span>
+                                        
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://zhangwenbo1229.github.io/zhangwenbo1229/tag/Q47zU89yR/">学习</a>
+                                
+                            </span>
+                                            
+                                                阅读量:
+                                                <span data-hk-page="current"> - </span>
+                                                
+                                    </div>
+                                    
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://zhangwenbo1229.github.io/zhangwenbo1229/post-images/pte-ba-chang-xue-xi.png" alt="">
+                          
+                        <div class="post-content">
+                            <p>CISP-PTE考试的实操题型一般包括基础题: 5个key:centos+apache+php+mysql+cms http://172.16.12.16.100:81-85 ;综合题：3个key:win2008+wamp()+dedecmsv5.6utf-8 . 另外还有20道选择题,一题一分.</p>
+<p>https://picgo-zhang.oss-cn-shanghai.aliyuncs.com/picgo/main/</p>
+<h2 id="基础题">基础题</h2>
+<ol>
+<li>SQL注入</li>
+</ol>
+<p>根据题目需要利用load_file()函数读取key文件;</p>
+<div>
+    <center>
+        <img src="https://picgo-zhang.oss-cn-shanghai.aliyuncs.com/picgo/main/20220222155522.png" alt="测试" style="zoom:80%" />
+        <br>
+        基础题目之SQL注入
+    </center>
+</div>
+<p>点击答题,sql语句直接显示在页面,注入点在id参数,尝试进行联合查询注入,后端过滤了空格使用/**/注释符绕过,后端过滤了union,大小写绕过无法成功,使用双写成功绕过;还尝试闭合时还发现过滤了#,使用%23替代,页面显示位为2、3、4,在任意位上使用load_file('/tmp/360/key')即可读取key1,payload如下 <code>-1')/**/ununionion/**/select/**/1,2,3,load_file('/tmp/360/key')%23</code></p>
+<div>
+    <center>
+        <img src="https://picgo-zhang.oss-cn-shanghai.aliyuncs.com/picgo/main/20220222161456.png" alt="测试" style="zoom:80%" />
+        <br>
+        key1
+    </center>
+</div>
+<blockquote>
+<p>本题主要考察联合查询注入以及mysql读写文件,是PTE经典的考核内容,在其基础上也会增加难度，变化形式考核万能密码、二阶注入、insert注入等知识点.考试时允许使用sqlmap自动化注入,不过需要注意使用tamper绕过WAF。</p>
+</blockquote>
+<ol start="2">
+<li>文件上传</li>
+</ol>
+<p>第二题一般是文件上传突破，可以上传图片马进行突破，后端没有使用白名单限制文件上传类型，可以上传同样可以被当作php文件执行的php3、php5、php7、phtml后缀类型的文件；但waf过滤了eval()函数的执行，可以使用system()执行系统命令绕过，</p>
+<blockquote>
+<p>文件头需要添加GIF89a 绕过文件内容检测</p>
+</blockquote>
+<div>
+    <center>
+        <img src="https://picgo-zhang.oss-cn-shanghai.aliyuncs.com/picgo/main/20220222170850.png" alt="测试" style="zoom:80%" />
+        <br>
+       key2-system函数
+    </center>
+</div>
+还可以使用php读取文件的函数,直接读取到key,例如readfile()、highlight_file()、echo file_get_contents();
+<ol start="3">
+<li>文件包含</li>
+</ol>
+<p>本题主要考察php伪协议的使用,可以使用php://filter/convert.base64-encode/resource直接读取key.php,base64解码后得到key;也可以使用php://input 执行system()函数;也可以使用data://text/plan,<?php highlight_file('../key.php');?> 读取key;也可以远程包含文件上传的一句话木马.</p>
+<div>
+    <center>
+        <img src="https://picgo-zhang.oss-cn-shanghai.aliyuncs.com/picgo/main/20220222174410.png" alt="测试" style="zoom:80%" />
+        <br>
+        key3
+    </center>
+</div>
+<blockquote>
+<p>这道题变化的话会过滤伪协议,使用大小写或双写绕过即可;</p>
+</blockquote>
+<ol start="4">
+<li>命令执行</li>
+</ol>
+<p>本题主要考察linux命令相关知识,利用命令连接符 |  ||  &amp;&amp;  ; 等,需要尽可能多的记住可以读取文件内容的命令,例如 cat、less、more、head、tail、vi、xxd、tac等等；也可以选择使用绕过，记住常见的关键字绕过方式。</p>
+<div>
+    <center>
+        <img src="https://picgo-zhang.oss-cn-shanghai.aliyuncs.com/picgo/main/20220316133151.png" alt="测试" style="zoom:80%" />
+        <br>
+        key4
+    </center>
+</div>
+<blockquote>
+<p>如果其他命令可以执行但无法读取文件，可能是未设置读取文件的权限，需要手动赋予权限。</p>
+</blockquote>
+<p>5.日志分析</p>
+<div>
+    <center>
+        <img src="https://picgo-zhang.oss-cn-shanghai.aliyuncs.com/picgo/main/20220316141320.png" alt="测试" style="zoom:80%" />
+        <br>
+        key5
+    </center>
+</div>
+第5题日志分析,攻击IP分别为172.16.12.1和172.16.12.12,题干中说攻击者IP为172.16.12.12忽略前半部分日志,关注攻击者从2017/10/31 15:32:55开始的目录扫描,持续到15:45:20爆破成功,发现后台路径 /adminlogin.php,然后尝试爆破得到账密admin:password123,成功登录得到key:9y6u8s5m.
+<h2 id="综合题">综合题</h2>
+<p>综合题考的是windows机器,win2008+phpstudy+dedecmsv5.6-utf8. 使用御剑进行目录扫描发现cms后台路径/dede和数据库管理后台路径/phpmyadmin.</p>
+<p>尝试默认密码root:root登录数据库管理后台,发现站点数据库dedecmsv56utf,在dede_admin表中找到管理员账号及hash,hash长度为20,md5解码得到密码为888888,也可以使用hackbar将自定义密码md5加密后去除前5后7位后替换密码hash后执行.</p>
+<div>
+    <center>
+        <img src="https://picgo-zhang.oss-cn-shanghai.aliyuncs.com/picgo/main/20220316153310.png" alt="测试" style="zoom:80%" />
+        <br>
+        phpmyadmin
+    </center>
+</div>
+在数据库中查询@@datadir,发现数据库命令为C:\phpStudy\MySQL\data,猜测使用phpstudy部署站点,猜测站点web目录为c:\phpStudy\www.  在数据库中尝试执行into outfile语句写入一句话木马,报错无权限.
+<div>
+    <center>
+        <img src="https://picgo-zhang.oss-cn-shanghai.aliyuncs.com/picgo/main/20220316163240.png" alt="测试" style="zoom:80
+100%" />
+        <br>
+        报错结果
+    </center>
+</div>
+在phpmyadmin主页尝试修改变量"general log"为ON,"general log file"为web目录,在sql页面查询`select "<?php eval($_POST['a']);?>"` 将木马写入日志文件,使用蚁剑连接,连接成功.
+<div>
+    <center>
+        <img src="https://picgo-zhang.oss-cn-shanghai.aliyuncs.com/picgo/main/20220316165001.png" alt="测试" style="zoom:100%" />
+        <br>
+        开启日志
+    </center>
+</div>
+<p>在web目录下得到key2. 考虑实际情况需要关闭防火墙,根据windows版本 win2003: <code>netsh firewall set opmode disable</code><br>
+win2008: <code>netsh advfirewall set allprofiles state off</code> 选择不同命令关闭防火墙;如果3389端口未开启需要上传3389.bat开启远程桌面端口.在Administrator用户桌面可以找到key3.</p>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%9F%BA%E7%A1%80%E9%A2%98">基础题</a></li>
+<li><a href="#%E7%BB%BC%E5%90%88%E9%A2%98">综合题</a></li>
+</ul>
+</li>
+</ul>
+
+                            </div>
+                            
+                                
+                                    
+                                            <!--zh-->
+                                            <section class="post-copyright zh">
+                                                <p class="copyright-item ">
+                                                    <span>&#x4F5C;&#x8005;:</span>
+                                                    <span>zhang'Blog</span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
+                                                    <span><a href="https://zhangwenbo1229.github.io/zhangwenbo1229/post/pte-ba-chang-xue-xi/">https://zhangwenbo1229.github.io/zhangwenbo1229/post/pte-ba-chang-xue-xi/</a></span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x534F;&#x8BAE;:</span>
+                                                    <span>MIT License</span>
+                                                </p>
+                                            </section>
+                                            
+                                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://zhangwenbo1229.github.io/zhangwenbo1229/post/pte-ba-chang-xue-xi/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://zhangwenbo1229.github.io/zhangwenbo1229/post/pte-ba-chang-xue-xi/&sharesource=qzone&title=PTE靶场学习&pics=https://zhangwenbo1229.github.io/zhangwenbo1229/images/avatar.png?v=1655108039224&summary="><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://zhangwenbo1229.github.io/zhangwenbo1229/post/pte-ba-chang-xue-xi/&sharesource=weibo&title=PTE靶场学习 + " - " + &pic="https://zhangwenbo1229.github.io/zhangwenbo1229/images/avatar.png?v=1655108039224 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                        <div class="reward ">
+                                                                            <div class="reward-button ">&yen;
+                                                                                <span class="reward-code "> 
+                        <span class="alipay-code "> <img class="alipay-img " alt = "support " src=""><b>支付宝</b> </span>
+                                                                                <span class="wechat-code "> <img alt ="support " class="wechat-img " src=""><b>微信</b> </span> </span>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                        
+                        <a href="https://zhangwenbo1229.github.io/zhangwenbo1229/tag/Q47zU89yR/">#
+                    学习
+                        </a>
+                        
+                            
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                            
+                                                                                </section>
+                    </article>
+                </div>
+                
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                    <div class="Like">
+                        <div class="tip" data-tooltip="Do you like it?">
+                            <a href="https://github.com/ITJoker233/Gridea-theme-Chic" target="_blank" title=""><svg class="icon"
+                        aria-hidden="true">
+                        <use xlink:href="#like"></use>
+                    </svg><b class="like_text" id="star"></b></a>
+                        </div>
+                    </div>
+                    
+                        
+                            
+                                <b id="hitokoto"></b><br>
+                                
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        zhang&#39;Blog &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="" target="_blank">
+                                                
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://fastly.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    hitokoto();
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1655108039224);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>
